@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85d70de3-4e98-4b5c-bc6c-47e276a6c0e8" name="Changes" comment="Commit to Cahpter 4.3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DropdownPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="85d70de3-4e98-4b5c-bc6c-47e276a6c0e8" name="Changes" comment="Cahpter 4.3 is run">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ForgotPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Forgot/ForgotPageTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DropedownPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -72,7 +70,7 @@
       <recent name="C:\Git\GetForMe\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DropdownTests">
+  <component name="RunManager" selected="TestNG.ForgotPageTests">
     <configuration name="BaseTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -124,6 +122,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ForgotPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Forgot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Forgot" />
+      <option name="MAIN_CLASS_NAME" value="Forgot.ForgotPageTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Test" />
       <extension name="coverage">
@@ -146,12 +161,14 @@
       <item itemvalue="TestNG.DropdownTests.testSelectOption" />
       <item itemvalue="TestNG.LoginTests" />
       <item itemvalue="TestNG.DropdownTests" />
+      <item itemvalue="TestNG.ForgotPageTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ForgotPageTests" />
+        <item itemvalue="TestNG.LoginTests" />
         <item itemvalue="TestNG.DropdownTests" />
         <item itemvalue="TestNG.DropdownTests.testSelectOption" />
-        <item itemvalue="TestNG.LoginTests" />
         <item itemvalue="Application.BaseTests" />
       </list>
     </recent_temporary>
@@ -186,7 +203,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663243206671</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cahpter 4.3 is run">
+      <created>1663259414014</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663259414014</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Cahpter 4.3 is run">
+      <created>1663259434690</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663259434690</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,6 +282,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit to Cahpter 4.2" />
     <MESSAGE value="Commit to Cahpter 4.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit to Cahpter 4.3" />
+    <MESSAGE value="Cahpter 4.3 is run" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cahpter 4.3 is run" />
   </component>
 </project>
