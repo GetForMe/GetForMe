@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85d70de3-4e98-4b5c-bc6c-47e276a6c0e8" name="Changes" comment="Cahpter 4.3 is run">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ForgotPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Forgot/ForgotPageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="85d70de3-4e98-4b5c-bc6c-47e276a6c0e8" name="Changes" comment="Cahpter 4.3 ready Home Task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SecureAreaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SecureAreaPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Forgot/ForgotPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Forgot/ForgotPageTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,22 +68,6 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.ForgotPageTests">
-    <configuration name="BaseTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="base.BaseTests" />
-      <module name="Test" />
-      <option name="PROGRAM_PARAMETERS" value="$MAVEN_REPOSITORY$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DropdownTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Test" />
       <extension name="coverage">
@@ -139,6 +120,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ForgotPageTests.testSuccessfulForgotPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Forgot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Forgot" />
+      <option name="MAIN_CLASS_NAME" value="Forgot.ForgotPageTests" />
+      <option name="METHOD_NAME" value="testSuccessfulForgotPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Test" />
       <extension name="coverage">
@@ -157,19 +156,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BaseTests" />
       <item itemvalue="TestNG.DropdownTests.testSelectOption" />
       <item itemvalue="TestNG.LoginTests" />
       <item itemvalue="TestNG.DropdownTests" />
       <item itemvalue="TestNG.ForgotPageTests" />
+      <item itemvalue="TestNG.ForgotPageTests.testSuccessfulForgotPassword" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.ForgotPageTests" />
+        <item itemvalue="TestNG.ForgotPageTests.testSuccessfulForgotPassword" />
         <item itemvalue="TestNG.LoginTests" />
         <item itemvalue="TestNG.DropdownTests" />
         <item itemvalue="TestNG.DropdownTests.testSelectOption" />
-        <item itemvalue="Application.BaseTests" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +216,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663259434690</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Cahpter 4.3 ready Home Task">
+      <created>1663268431480</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663268431480</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Cahpter 4.3 ready Home Task">
+      <created>1663268441116</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663268441116</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -283,6 +296,7 @@
     <MESSAGE value="Commit to Cahpter 4.2" />
     <MESSAGE value="Commit to Cahpter 4.3" />
     <MESSAGE value="Cahpter 4.3 is run" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cahpter 4.3 is run" />
+    <MESSAGE value="Cahpter 4.3 ready Home Task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cahpter 4.3 ready Home Task" />
   </component>
 </project>

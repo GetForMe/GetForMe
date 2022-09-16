@@ -15,7 +15,7 @@ public class ForgotPageTests extends BaseTests {
         forgotPage.setEmailField("carrier@zone.com");
         //forgotPage.clickRetrievePassword();
         SecureAreaPage secureArea = forgotPage.clickRetrievePassword();
-        assertEquals(secureArea.toString(),"pages.SecureAreaPage",
+        assertEquals(secureArea.getHeaderText(),"Internal Server Error",
                 "Alert text is incorrect");
     }
 }
