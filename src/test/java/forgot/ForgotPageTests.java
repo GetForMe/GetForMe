@@ -1,4 +1,4 @@
-package Forgot;
+package forgot;
 
 import base.BaseTests;
 import org.testng.annotations.Test;
@@ -13,7 +13,6 @@ public class ForgotPageTests extends BaseTests {
     public void testSuccessfulForgotPassword(){
         ForgotPage forgotPage = homePage.clickForgotPage();
         forgotPage.setEmailField("carrier@zone.com");
-        //forgotPage.clickRetrievePassword();
         SecureAreaPage secureArea = forgotPage.clickRetrievePassword();
         assertEquals(secureArea.getHeaderText(),"Internal Server Error",
                 "Alert text is incorrect");

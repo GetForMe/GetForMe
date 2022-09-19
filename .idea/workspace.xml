@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85d70de3-4e98-4b5c-bc6c-47e276a6c0e8" name="Changes" comment="Cahpter 4.3 ready Home Task">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HoversPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hover/HoverTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/SecureAreaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SecureAreaPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Forgot/ForgotPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Forgot/ForgotPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Forgot/ForgotPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/forgot/ForgotPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dropdown/DropdownTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dropdown/DropdownTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/SecureAreaPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/SecureAreaPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Forgot/ForgotPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Forgot/ForgotPageTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dropdown/DropdownTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dropdown/DropdownTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="test" />
+        <entry key="$PROJECT_DIR$" value="Chapter4.3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,7 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -67,7 +77,7 @@
       <recent name="C:\Git\GetForMe\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ForgotPageTests">
+  <component name="RunManager" selected="TestNG.HoverTests">
     <configuration name="DropdownTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Test" />
       <extension name="coverage">
@@ -85,34 +95,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DropdownTests.testSelectOption" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dropdown.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dropdown" />
-      <option name="MAIN_CLASS_NAME" value="dropdown.DropdownTests" />
-      <option name="METHOD_NAME" value="testSelectOption" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ForgotPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Forgot.*" />
+          <option name="PATTERN" value="forgot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Forgot" />
-      <option name="MAIN_CLASS_NAME" value="Forgot.ForgotPageTests" />
+      <option name="MAIN_CLASS_NAME" value="forgot.ForgotPageTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -124,14 +116,31 @@
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Forgot.*" />
+          <option name="PATTERN" value="forgot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Forgot" />
-      <option name="MAIN_CLASS_NAME" value="Forgot.ForgotPageTests" />
+      <option name="MAIN_CLASS_NAME" value="forgot.ForgotPageTests" />
       <option name="METHOD_NAME" value="testSuccessfulForgotPassword" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HoverTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hover.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hover" />
+      <option name="MAIN_CLASS_NAME" value="hover.HoverTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -156,19 +165,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.DropdownTests.testSelectOption" />
       <item itemvalue="TestNG.LoginTests" />
       <item itemvalue="TestNG.DropdownTests" />
       <item itemvalue="TestNG.ForgotPageTests" />
       <item itemvalue="TestNG.ForgotPageTests.testSuccessfulForgotPassword" />
+      <item itemvalue="TestNG.HoverTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HoverTests" />
         <item itemvalue="TestNG.ForgotPageTests" />
         <item itemvalue="TestNG.ForgotPageTests.testSuccessfulForgotPassword" />
         <item itemvalue="TestNG.LoginTests" />
         <item itemvalue="TestNG.DropdownTests" />
-        <item itemvalue="TestNG.DropdownTests.testSelectOption" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663268441116</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Cahpter 4.3 ready Home Task">
+      <created>1663331848058</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663331848058</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

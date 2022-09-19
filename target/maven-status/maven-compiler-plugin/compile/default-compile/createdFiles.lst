@@ -1,0 +1,5 @@
+pages\SecureAreaPage.class
+pages\ForgotPage.class
+pages\DropdownPage.class
+pages\LoginPage.class
+pages\HomePage.class

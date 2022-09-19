@@ -7,7 +7,7 @@ public class SecureAreaPage {
 
     private WebDriver driver;
     private By statusAlert = By.id("flash");
-    private By statusForgot = By.cssSelector("body > h1:nth-child(1)");
+    private By statusForgot = By.cssSelector("h1");
 
     public SecureAreaPage(WebDriver driver){
         this.driver = driver;

@@ -1,0 +1,4 @@
+base\BaseTests.class
+dropdown\DropdownTests.class
+forgot\ForgotPageTests.class
+login\LoginTests.class
